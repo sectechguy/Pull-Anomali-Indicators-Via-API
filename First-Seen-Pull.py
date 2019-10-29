@@ -13,7 +13,7 @@ api_key = '<api_key>'
 WAIT_SECONDS = 5
 BATCH_SLEEP_SECONDS = 300    
 
-initial_indicators = pd.read_csv('/Capture_Indicators_Months_Jan_Feb_2019/initial_indicators.csv')
+initial_indicators = pd.read_csv('Capture_Indicators_Months_Jan_Feb_2019/initial_indicators.csv')
 initial_list = initial_indicators['value'].tolist()
 column1 = list()
 column2 = list()
